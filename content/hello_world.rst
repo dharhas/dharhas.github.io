@@ -5,5 +5,5 @@ My super title
 :tags: thats, awesome
 :category: yeah
 :slug: my-super-post
-:author: Alexis Metaireau
+:author: Dharhas Pothina
 :summary: Short version for index and feeds
