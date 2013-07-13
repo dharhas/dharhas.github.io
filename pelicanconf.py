@@ -4,9 +4,10 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Dharhas Pothina'
 SITENAME = u'wibbly wobbly'
+SITESUBTITLE = u'Musings on data through time and space'
 SITEURL = ''
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'US/Central'
 
 DEFAULT_LANG = u'en'
 
