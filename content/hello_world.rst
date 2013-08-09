@@ -7,3 +7,5 @@ My super title
 :slug: my-super-post
 :author: Dharhas Pothina
 :summary: Short version for index and feeds
+
+This is a test of the new push ability
