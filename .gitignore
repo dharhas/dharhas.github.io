@@ -1,5 +1,8 @@
 *.py[cod]
 
+#Pelican related
+output
+
 # C extensions
 *.so
 
