@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>wibbly wobbly</title><link href="http://dharhas.github.io/" rel="alternate"></link><link href="/atom.xml" rel="self"></link><id>http://dharhas.github.io/</id><updated>2013-08-30T12:20:00-05:00</updated><entry><title>Trying Something New</title><link href="http://dharhas.github.io/blog/2013/08/30/trying-something-new/" rel="alternate"></link><updated>2013-08-30T12:20:00-05:00</updated><author><name>Dharhas Pothina</name></author><id>tag:dharhas.github.io,2013-08-30:blog/2013/08/30/trying-something-new/</id><summary type="html">&lt;!-- PELICAN_BEGIN_SUMMARY --&gt;
-
-&lt;p&gt;At &lt;a href="http://conference.scipy.org/scipy2013/"&gt;SciPy2013&lt;/a&gt; I had lots of awesome 
-conversations with folks. It was great to find that some of the things I'm
-working on are actually of interest to a wider audience. One thing that came up 
-again and again is whether I had blog posts describing some of my work (I didn't).&lt;/p&gt;
-&lt;p&gt;After seeing some really great examples of integrating the IPython notebook, github
-and static website generators (which I had never heard of before), I decided that 
-this looked like a blogging platform that might actually be something I could enjoy 
-using. &lt;/p&gt;
-&lt;p&gt;Anyway after several false starts, here is my attempt at a technical blog. &lt;/p&gt;
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-&lt;h2&gt;Inner Workings&lt;/h2&gt;
-&lt;p&gt;Sporadically over the laste few months since SciPy2013 I've tried various things found 
-from googling blog and Ipython. After meandering down several twisty lanes, I've finally 
-got something together that works (I think).&lt;/p&gt;
-&lt;p&gt;I'm basically using a python based static website generator &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; 
-along with the the liquid-tags plugin developed by &lt;a href="http://jakevdp.github.io/"&gt;Jave Vanderplas&lt;/a&gt;.
-This website is basically a fork of his. I'm currently using the &lt;a href="https://github.com/duilio/pelican-octopress-theme"&gt;octopress-pelican&lt;/a&gt;
-theme but will probably tweak it over time. In my next post I'll try a blogging a simple 
-IPython notebook to see if I have all the kinks worked out.&lt;/p&gt;</summary><category term="kicking-the-tires"></category></entry><entry><title>Texas Lake Storage XKCD Style</title><link href="http://dharhas.github.io/blog/2013/07/10/texas-lake-storage-xkcd-style/" rel="alternate"></link><updated>2013-07-10T16:00:00-05:00</updated><author><name>Dharhas Pothina</name></author><id>tag:dharhas.github.io,2013-07-10:blog/2013/07/10/texas-lake-storage-xkcd-style/</id><summary type="html">&lt;p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>wibbly wobbly</title><link href="http://dharhas.github.io/" rel="alternate"></link><link href="/feeds/notebooks.atom.xml" rel="self"></link><id>http://dharhas.github.io/</id><updated>2013-07-10T16:00:00-05:00</updated><entry><title>Texas Lake Storage XKCD Style</title><link href="http://dharhas.github.io/blog/2013/07/10/texas-lake-storage-xkcd-style/" rel="alternate"></link><updated>2013-07-10T16:00:00-05:00</updated><author><name>Dharhas Pothina</name></author><id>tag:dharhas.github.io,2013-07-10:blog/2013/07/10/texas-lake-storage-xkcd-style/</id><summary type="html">&lt;p&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;So as a simple test of my new blog I decided to recreate a plot of historical Texas lake storage from &lt;a href="http://waterdatafortexas.org"&gt;waterdatafortexas&lt;/a&gt;. The original plot can be seen below:&lt;/p&gt;
 &lt;/div&gt;
