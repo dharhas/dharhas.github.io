@@ -1756,30 +1756,50 @@ init_mathjax();
   <div id="main">
     <div id="content">
       <div>
-	<article role="article">
-    	<header>
-    		<h1 class="entry-title">Blog Archive</h1>
-    	</header>
+  <article class="hentry" role="article">
+    <header>
+          <h1 class="entry-title">Trying Something New</h1>
+          <p class="meta"><time datetime="2013-08-30T12:20:00" pubdate>Aug 30, 2013</time></p>
+</header>
 
-    	<div id="blog-archives">
-	    			    	<h2>2013</h2>
-			        					    				<article>
-		    				<h1><a href="blog/2013/08/30/trying-something-new/">Trying Something New</a></h1>
-			    			<time datetime="2013-08-30 12:20:00" pubdate>
-				    			<span class="month">Aug</span> 
-					    		<span class="day">30</span> 
-						    	<span class="year">2013</span> 
-    						</time>
-	    					<footer>
-		    					<span class="categories">posted in 
-			    					<a class='category' href='/category/misc.html'>misc</a>
-				    				
-					    		</span>
-    						</footer>
-	    				</article>
-		    					        			    </div>
-    </article>
-</div>
+  <div class="entry-content"><!-- PELICAN_BEGIN_SUMMARY -->
+
+<p>At <a href="http://conference.scipy.org/scipy2013/">SciPy2013</a> I had lots of awesome 
+conversations with folks. It was great to find that some of the things I'm
+working on are actually of interest to a wider audience. One thing that came up 
+again and again is whether I had blog posts describing some of my work (I didn't).</p>
+<p>After seeing some really great examples of integrating the IPython notebook, github
+and static website generators (which I had never heard of before), I decided that 
+this looked like a blogging platform that might actually be something I could enjoy 
+using. </p>
+<p>Anyway after several false starts, here is my attempt at a technical blog. </p>
+<!-- PELICAN_END_SUMMARY -->
+
+<h2>Inner Workings</h2>
+<p>Sporadically over the laste few months since SciPy2013 I've tried various things found 
+from googling blog and Ipython. After meandering down several twisty lanes, I've finally 
+got something together that works (I think).</p>
+<p>I'm basically using a python based static website generator <a href="http://getpelican.com">Pelican</a> 
+along with the the liquid-tags plugin developed by <a href="http://jakevdp.github.io/">Jave Vanderplas</a>.
+This website is basically a fork of his. I'm currently using the <a href="https://github.com/duilio/pelican-octopress-theme">octopress-pelican</a>
+theme but will probably tweak it over time. In my next post I'll try a blogging a simple 
+IPython notebook to see if I have all the kinks worked out.</p></div>
+    <footer>
+      <p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">Dharhas Pothina</span>
+  </span>
+  <time datetime="2013-08-30T12:20:00" pubdate>Aug 30, 2013</time>    <span class="categories">
+        <a class="category" href="http://dharhas.github.io/tag/kicking-the-tires.html">kicking-the-tires</a>
+      </span>
+  </p>    </footer>
+  </article>
+
+    <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+  </div>
       <aside class="sidebar">
   <section>
     <h1>Recent Posts</h1>
@@ -1838,6 +1858,9 @@ init_mathjax();
   <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
 </p></footer>
   	<script type="text/javascript">
+	            var disqus_identifier = 'http://dharhas.github.io/blog/2013/08/30/trying-something-new/';
+          var disqus_url = 'http://dharhas.github.io/blog/2013/08/30/trying-something-new/';
+	  var disqus_title = 'Trying Something New';
 	  	  var disqus_shortname = 'dharhas';
 	  (function() {
 	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
